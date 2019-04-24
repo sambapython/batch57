@@ -19,5 +19,13 @@ file2.fun()
 import purchase
 purchase.file1.fun()
 '''
+'''
 from purchase import file1
 file1.fun()
+'''
+
+import sys
+sys.path.append("/home/khyaathipython/")
+print(sys.path)
+
+import pur
