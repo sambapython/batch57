@@ -1,0 +1,19 @@
+INFO:root:welcome to the division operation
+INFO:root:A value entered
+INFO:root:b value entered
+DEBUG:root: before conversion a=12,b=6
+INFO:root:a value converted successfully!!
+INFO:root:b value converted successfully!!
+DEBUG:root: after conversion a=12.0,b=6.0
+DEBUG:root:result=2.0
+INFO:root:operation successfully completed
+ERROR:root:float division by zero
+2019-05-05 09:04:24,098-->INFO==>welcome to the division operation
+2019-05-05 09:04:26,425-->INFO==>A value entered
+2019-05-05 09:04:27,050-->INFO==>b value entered
+2019-05-05 09:04:27,050-->DEBUG==> before conversion a=12,b=6
+2019-05-05 09:04:27,050-->INFO==>a value converted successfully!!
+2019-05-05 09:04:27,050-->INFO==>b value converted successfully!!
+2019-05-05 09:04:27,050-->DEBUG==> after conversion a=12.0,b=6.0
+2019-05-05 09:04:27,050-->DEBUG==>result=2.0
+2019-05-05 09:04:27,050-->INFO==>operation successfully completed
