@@ -16,11 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.http import HttpResponse
+from sales.views import fun
+'''
 def fun(request):
 	return HttpResponse("hello world")
-	
+'''
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('users/',fun)
+    path('customers/',fun)
 ]
